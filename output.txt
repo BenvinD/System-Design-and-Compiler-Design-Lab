@@ -4,7 +4,7 @@ Reg No: URK19CS1060
 Number of Keyword Token: 2 
 if else 
 
-Number of Puncuation Token: 5 
+Number of Punctuators Token: 5 
 ( ) { ; } 
 
 Number of Operator Token: 3 
