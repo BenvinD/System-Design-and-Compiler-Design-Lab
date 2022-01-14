@@ -17,7 +17,7 @@ std::vector<std::string> keyword{"auto","main","break","case","char","const","co
                                 "register","return","short","signed","sizeof","static","struct","switch",
                                 "typedef","union","unsigned","void","volatile","while"};
 std::vector<std::string> puncuation{".",";",",","{","}","|","(",")"};
-std::vector<std::string> opperator{"+","=","-","*","/","?",":","^","%","<=",">=","==","&&","||"};
+std::vector<std::string> opperator{"+","=","-","*","/","?",":","^","%","<=",">=","==","&&","||",">","<"};
 std::vector<std::string> p_keyword,p_identifier,p_puncuation,p_operator;
 int c_kw = 0 ,c_id =0 ,c_pu = 0 ,c_op = 0;
 if (data.is_open()) {   
