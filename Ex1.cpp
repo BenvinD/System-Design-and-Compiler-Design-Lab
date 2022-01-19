@@ -4,12 +4,12 @@
 #include <math.h>
 #include <vector>
 #include <algorithm>
-#include <string>`
+#include <string>
 
 int main()
 {
 std::ifstream data; data.open("/Users/benvindavid/Desktop/Code/System_Design_and_Compiler_Design_Lab/input.txt");
-freopen("/Users/benvindavid/Desktop/Code/System_Design_and_Compiler_Design_Lab/output.txt","w", stdout);
+//freopen("/Users/benvindavid/Desktop/Code/System_Design_and_Compiler_Design_Lab/output.txt","w", stdout);
 std::cout<<"Name:   Benvin"<<std::endl<<"Reg No: URK19CS1060"<<std::endl<<std::endl;
 std::string mystr;
 std::vector<std::string> keyword{"auto","main","break","case","char","const","continue","default","do",
@@ -74,4 +74,3 @@ std::cout<<std::endl<<std::endl;
 std::cout<<"Total number of tokens is "<<c_id+c_kw+c_op+c_pu<<std::endl;
 return 0;
 }
- 
