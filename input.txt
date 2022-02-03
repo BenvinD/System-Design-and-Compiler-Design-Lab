@@ -1,5 +1,11 @@
-int a , b = 5 ;
-char c = ’d’ ;
-double Add ( double x , double y ) 
-int sub ( int g )
-int k = 8 ;
+#define ADD (X) ( X=X+X )
+#define SUB (X) ( X=X-X )
+#define MUL (X,Y) ( X=X*Y )
+#include<stdio.h>
+void main () 
+{
+int a = 10 ;
+ADD (a) ;
+SUB (b) ;
+MUL (c,d) ;
+}

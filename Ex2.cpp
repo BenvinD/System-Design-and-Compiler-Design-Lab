@@ -178,3 +178,24 @@ freopen("/Users/benvindavid/Desktop/Code/System_Design_and_Compiler_Design_Lab/o
     } 
 }
 //g++ -std=c++17 /Users/benvindavid/Desktop/Code/System_Design_and_Compiler_Design_Lab/Ex2.cpp -o /Users/benvindavid/Desktop/Code/System_Design_and_Compiler_Design_Lab/Ex2 && /Users/benvindavid/Desktop/Code/System_Design_and_Compiler_Design_Lab/Ex2
+
+
+/*
+input:
+int a , b = 5 ;
+char c = ’d’ ;
+double Add ( double x , double y ) 
+int sub ( int g )
+int k = 8 ;
+
+output:
+Name:   Benvin
+Reg No: URK19CS1060
+
+id:  a               data type: int             initial values: 0              
+id:  b               data type: int             initial values: 5              
+id:  c               data type: char            initial values: ’d’        
+id:  Add             return type: double        Number of Parameters: 2 Parameters:   double     x double     y 
+id:  sub             return type: int           Number of Parameters: 1 Parameters:   int        g 
+id:  k               data type: int             initial values: 8              
+*/
