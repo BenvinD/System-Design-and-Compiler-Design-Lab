@@ -1,8 +1,5 @@
-if ( a > b )
-{
-    int d = a + b + c ;
-}
-else
-{
-    float num = l + z - y ;
-}
+int a , b = 5 ;
+char c = ’d’ ;
+double Add ( double x , double y ) 
+int sub ( int g )
+int k = 8 ;

@@ -74,3 +74,34 @@ std::cout<<std::endl<<std::endl;
 std::cout<<"Total number of tokens is "<<c_id+c_kw+c_op+c_pu<<std::endl;
 return 0;
 }
+
+/*
+Input-
+
+if ( a > b )
+{
+    int d = a + b + c ;
+}
+else
+{
+    float num = l + z - y ;
+}
+
+Output-
+
+Name:   Benvin
+Reg No: URK19CS1060
+
+Number of Keyword Token: 4 
+if int else float 
+
+Number of Punctuators Token: 5 
+( ) { ; } 
+
+Number of Operator Token: 4 
+> = + - 
+Number of Identifier Token: 4 
+a b d c num l z y 
+
+Total number of tokens is 13
+*/
