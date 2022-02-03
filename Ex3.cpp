@@ -15,7 +15,6 @@ char inp[1000];
 std::ifstream data; data.open("/Users/benvindavid/Desktop/Code/System_Design_and_Compiler_Design_Lab/input.txt");
 freopen("/Users/benvindavid/Desktop/Code/System_Design_and_Compiler_Design_Lab/output.txt","w", stdout);
 std::cout<<"Name:   Benvin"<<std::endl<<"Reg No: URK19CS1060"<<std::endl<<std::endl;
-std::vector<std::string> datatype {"auto","char","double","float","int","long","short"};
 bool flag = true;
 std::vector<int> np;
 if (data.is_open()){ 
