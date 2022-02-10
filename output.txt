@@ -1,11 +1,6 @@
 Name:   Benvin
 Reg No: URK19CS1060
 
-#include<stdio.h>
-void main () 
-{
-int a = 10 ;
-a=a+a;
-b=b-b;
-c=c*d;
-}
+H^COPY^1000^0c
+T^001000^06^001009^231006
+E^001000

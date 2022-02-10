@@ -1,11 +1,6 @@
-#define ADD (X) ( X=X+X )
-#define SUB (X) ( X=X-X )
-#define MUL (X,Y) ( X=X*Y )
-#include<stdio.h>
-void main () 
-{
-int a = 10 ;
-ADD (a) ;
-SUB (b) ;
-MUL (c,d) ;
-}
+COPY START 1000
+LDA ALPHA
+STA BETA
+ALPHA RESW 1
+BETA RESW 1
+END
