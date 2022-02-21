@@ -150,7 +150,7 @@ freopen("/Users/benvindavid/Desktop/Code/System_Design_and_Compiler_Design_Lab/o
                 std::cout<<std::left<<std::setw(5)<<"id: "<<std::left<<std::setw(15)<<local_id[i]<<" "<<std::left<<std::setw(10)<<"data type: "<<std::left<<std::setw(15)<<local_dt<<" "<<std::left<<std::setw(15)<<"initial values: "<<std::left<<std::setw(15)<<local_iv[i]<<std::endl;
             }
             local_dt="";
-            local_id.empty();
+            static_cast<void>(local_id.empty());
             }
             int np=0;
             if(cur[i]!=")"){
@@ -170,14 +170,14 @@ freopen("/Users/benvindavid/Desktop/Code/System_Design_and_Compiler_Design_Lab/o
                 std::cout<<std::endl;
                 local_rt="";
                 func_id="";
-                para.empty();
-                para_id.empty();
+                static_cast<void>(para.empty());
+                static_cast<void>(para_id.empty());
             }
         }
     }
     } 
 }
-//g++ -std=c++17 /Users/benvindavid/Desktop/Code/System_Design_and_Compiler_Design_Lab/Ex2.cpp -o /Users/benvindavid/Desktop/Code/System_Design_and_Compiler_Design_Lab/Ex2 && /Users/benvindavid/Desktop/Code/System_Design_and_Compiler_Design_Lab/Ex2
+//g++ -std=c++20 /Users/benvindavid/Desktop/Code/System_Design_and_Compiler_Design_Lab/Ex2.cpp -o /Users/benvindavid/Desktop/Code/System_Design_and_Compiler_Design_Lab/Ex2 && /Users/benvindavid/Desktop/Code/System_Design_and_Compiler_Design_Lab/Ex2
 
 
 /*

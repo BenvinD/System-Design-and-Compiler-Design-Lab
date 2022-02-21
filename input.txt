@@ -1,6 +1,5 @@
-COPY START 1000
-LDA ALPHA
-STA BETA
-ALPHA RESW 1
-BETA RESW 1
-END
+int a , b = 5 ;
+char c = ’d’ ;
+double Add ( double x , double y ) 
+int sub ( int g )
+int k = 8 ;
